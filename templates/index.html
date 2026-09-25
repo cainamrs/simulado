@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+    <title>Pegada de Carbono</title>
+</head>
+
+<body >
+
+    <h1>Pegada de Carbono</h1>
+<div>
+<form method="post" action="/" >
+
+        <label>Distância por dia (km):</label>
+            <div class="mb-2">
+      <label for="disabledTextInput" class="form-label; ">Distancia</label>
+      <input type="text" id="Distancia" class="form-control" placeholder="Distancia">
+    </div>
+        <br><br>
+
+        <label>Dias por semana:</label>
+        <input type="number" name="dias">
+
+        <br><br>
+
+        <label>Meio de transporte:</label>
+
+        <select name="transporte">
+            <option value="">Selecione</option>
+            <option value="bicicleta">Bicicleta ou a pé</option>
+            <option value="eletrico">Carro elétrico</option>
+            <option value="onibus">Ônibus</option>
+            <option value="moto">Moto</option>
+            <option value="gasolina">Carro a gasolina</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Calcular</button>
+
+    </form>
+
+
+    
+</div>
+    
+
+</body>
+
+</html>
